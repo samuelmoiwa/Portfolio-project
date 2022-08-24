@@ -60,11 +60,11 @@ body {
   cursor: pointer;
 }
 
-.introduction-heater {
+.introduction-header {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 300px;
+  justify-content: center;
   padding-left: 230px;
 }
 
@@ -487,14 +487,23 @@ body {
 }
 
 .contact-me-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
   margin-top: 150px;
-  padding-bottom: 75px;
+  height: 846px;
   background-image: url(images/footer-background.svg);
 }
 
+.contact-me-section-aline-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact-me-header {
-  padding-top: 105px;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -502,6 +511,8 @@ body {
   text-align: center;
   color: #fff;
   font-family: 'Poppins', sans-serif;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .contact-me-p {
@@ -513,13 +524,14 @@ body {
   line-height: 28px;
   font-family: 'Poppins', sans-serif;
   margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .form-div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 45px;
+  margin-top: 40px;
 }
 
 .form-input-name,
