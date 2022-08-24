@@ -5,7 +5,6 @@ body {
 }
 
 .main-div {
-  max-width: 1440px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -22,7 +21,7 @@ body {
 .navigation-menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: 72px;
@@ -30,8 +29,15 @@ body {
   position: fixed;
 }
 
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+}
+
 .main-logo {
-  padding-left: 200px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -47,7 +53,6 @@ body {
   list-style-type: none;
   width: 300px;
   justify-content: space-between;
-  padding-right: 200px;
 }
 
 .nav-menu-items {
@@ -60,12 +65,19 @@ body {
   cursor: pointer;
 }
 
+.introduction-header-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
 .introduction-header {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: fit-content;
   justify-content: center;
-  padding-left: 230px;
 }
 
 .greeting {
@@ -121,7 +133,8 @@ body {
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
-  width: 1156px;
+  justify-content: space-between;
+  width: 80%;
 }
 
 .container-1,
@@ -143,16 +156,43 @@ body {
 }
 
 .portoflio-img {
-  width: 544px;
-  height: 448px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.portoflio-img-2,
+.portoflio-img-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding-left: 50px;
+}
+
+.pot-image {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
 }
 
 .portoflio-contents {
   display: flex;
   flex-direction: column;
-  width: 544px;
+  width: 50%;
   height: 445px;
   padding-left: 50px;
+}
+
+.portoflio-contents-2,
+.portoflio-contents-4 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 445px;
 }
 
 .portoflio-title {
@@ -494,6 +534,7 @@ body {
   margin-top: 150px;
   height: 846px;
   background-image: url(images/footer-background.svg);
+  background-repeat: no-repeat;
 }
 
 .contact-me-section-aline-items {
@@ -601,3 +642,79 @@ body {
 }
 
 /* ############################################## */
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .portoflio-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 80%;
+    height: fit-content;
+  }
+
+  .portoflio-img {
+    width: 50%;
+  }
+
+  .portoflio-img-2,
+  .portoflio-img-4 {
+    width: 50%;
+    padding-right: 20px;
+  }
+
+  .portoflio-contents {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 445px;
+  }
+
+  .portoflio-contents-2,
+  .portoflio-contents-4 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 445px;
+  }
+
+  .portoflio-title {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .portoflio-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 297px;
+    height: 40px;
+    margin-top: 7px;
+    margin-bottom: 0;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .portoflio-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 10px;
+    color: #344563;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .See-Project-btn-container {
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+  }
+}
