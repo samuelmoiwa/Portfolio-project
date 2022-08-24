@@ -1,10 +1,10 @@
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   background-color: #e5e5e5;
 }
 
-.main-div{
+.main-div {
   max-width: 1440px;
   width: 100%;
   display: flex;
@@ -29,7 +29,6 @@ body {
   background-color: #fff;
   position: fixed;
 }
-
 
 .main-logo {
   padding-left: 200px;
@@ -69,16 +68,16 @@ body {
   padding-left: 230px;
 }
 
-.greeting{
+.greeting {
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
   letter-spacing: 0.37px;
-  color: #091E42;
+  color: #091e42;
   font-family: 'Poppins', sans-serif;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .header-paragraf {
@@ -87,7 +86,7 @@ body {
   font-size: 20px;
   line-height: 28px;
   color: #344563;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .lets-connect {
@@ -95,10 +94,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
   cursor: pointer;
   margin-top: 15px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .social-icon-header {
@@ -136,20 +135,19 @@ body {
 .container-1,
 .container-2,
 .container-3,
-.container-4{
+.container-4 {
   margin-bottom: 142px;
 }
 
 .container-1:hover,
 .container-2:hover,
 .container-3:hover,
-.container-4:hover{
+.container-4:hover {
   cursor: pointer;
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   border-style: solid;
   border-width: 3px;
-  border-color: #A7AEFF;
-
+  border-color: #a7aeff;
 }
 
 .portoflio-img {
@@ -167,25 +165,24 @@ body {
 
 .portoflio-title {
   margin-top: 30px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #091E42;
+  color: #091e42;
   font-family: 'Poppins', sans-serif;
 }
 
 .portoflio-items {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
   width: 297px;
   height: 40px;
   margin-top: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   justify-content: space-between;
-  padding: 0px;
+  padding: 0;
 }
 
 .canopy {
@@ -194,18 +191,18 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 40px;
-  margin-top: 0px;
+  margin-top: 0;
   color: #344563;
   font-family: 'Poppins', sans-serif;
 }
 
-.role, 
+.role,
 .year {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-  color: #6B778C;
+  color: #6b778c;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -249,11 +246,9 @@ body {
   color: #6070ff;
 }
 
-
 .btn-html:hover,
 .btn-css:hover,
-.btn-js:hover,
-.see-project-btn:hover {
+.btn-js:hover {
   cursor: pointer;
   background-color: #6070ff;
   box-shadow: 0 0 16px rgba(64, 83, 252, 0.24);
@@ -263,15 +258,14 @@ body {
 
 .btn-html:active,
 .btn-css:active,
-.btn-js:active,
-.see-project-btn:active {
+.btn-js:active {
   cursor: pointer;
   background-color: #fff;
   border: 1px solid #7f8cff;
   color: #6070ff;
 }
 
-.See-Project-btn-container{
+.See-Project-btn-container {
   display: flex;
   width: 100%;
   margin-top: 25px;
@@ -286,6 +280,216 @@ body {
   letter-spacing: 0.03em;
   color: #396df2;
   padding: 12px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
+}
+
+.see-project-btn:hover {
+  cursor: pointer;
+  background-color: #6070ff;
+  box-shadow: 0 0 16px rgba(64, 83, 252, 0.24);
+  transform: translateY(4px);
+  color: #fff;
+}
+
+.see-project-btn:active {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #7f8cff;
+  color: #6070ff;
+}
+
+.about-section-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url(images/about-myself-background.svg);
+}
+
+.about-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 100px;
+  width: 80%;
+}
+
+.about-me-main-div {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 0;
+}
+
+.about-myself {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-myself-text {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-lets-connect {
+  margin-top: 15px;
+  margin-bottom: 0;
+  width: fit-content;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.about-section-social-media-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.about-social-links {
+  cursor: pointer;
+}
+
+.get-my-resume-btn-div {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.get-my-resume-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  font-family: 'Poppins', sans-serif;
+  padding: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  border-color: #6070ff;
+  background: #ebebff;
+}
+
+.get-my-resume-btn:hover {
+  cursor: pointer;
+  background-color: #6070ff;
+  box-shadow: 0 0 16px rgba(64, 83, 252, 0.24);
+  transform: translateY(4px);
+  color: #fff;
+}
+
+.get-my-resume-btn:active {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #7f8cff;
+  color: #6070ff;
+}
+
+.languages-main-div {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 40px;
+}
+
+.languages-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.languages-text-h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #344563;
+  font-family: 'Poppins', sans-serif;
+}
+
+.arrow-down-icon {
+  cursor: pointer;
+}
+
+.languages-image {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.language-icon-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 122px;
+  height: 120px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.html-div,
+.css-div {
+  margin-left: 10px;
+}
+
+.language-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  font-family: 'Poppins', sans-serif;
+}
+
+.frameworks-text-div,
+.skills-text-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+  border-bottom: solid;
+  border-radius: 1px;
+  border-color: #dfe1e6;
+}
+
+.frameworks,
+.skills {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #344563;
+  font-family: 'Poppins', sans-serif;
+}
+
+.arrow-right {
+  cursor: pointer;
 }
