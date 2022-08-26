@@ -155,6 +155,10 @@ h2 {
   font-family: var(--font-family);
 }
 
+.name:hover {cursor: pointer;
+  transform: translateY(10px);
+}
+
 .about-paragraph-div {
   display: flex;
   flex-direction: row;
