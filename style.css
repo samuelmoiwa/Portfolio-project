@@ -714,7 +714,7 @@ h2 {
 
 /* ################################################################ */
 
-@media all and (max-width: 1440px) {
+@media all and (max-width: 1540px) {
   .main-container {
     display: flex;
     flex-direction: column;
