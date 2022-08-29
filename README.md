@@ -47,7 +47,7 @@ And the figma design file. <br>
 Thanks to [Formspree](https://formspree.io/). <br>
 for providing the external data storage to save form inputs.
 
-## view project online
+## view project online: [page link](https://samuelmoiwa.github.io/Portfolio-desktop-version/)
 
 ## 📝 License
 
