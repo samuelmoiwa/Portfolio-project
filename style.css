@@ -732,6 +732,7 @@ h2 {
 
   .nav-menu-items:hover {
     cursor: pointer;
+    border-bottom: 2px solid #344563;
   }
 
   .header-nav-container {
