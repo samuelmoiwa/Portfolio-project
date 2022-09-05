@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -12,20 +13,29 @@
     <div class="main-container">
       <div class="banner-ibackground">
         <header class="header-nav-container">
-          <div class="main-nav-container">
+          <nav class="main-nav-container">
             <a class="logo" href="">My Logo</a>
 
-            <nav class="nav_item">
-              <img class="menu" src="images/icons/menu-icon.svg" alt="" />
-              <ul class="nav-menu-ul">
-                <li class="nav-menu-items">Portoflio</li>
-                <li class="nav-menu-items">About</li>
-                <li class="nav-menu-items">Contact</li>
-              </ul>
-            </nav>
-          </div>
-        </header>
+            <ul class="nav-menu-ul">
+              <li class="nav-menu-items">
+                <a href="#" class="nav-link">Portoflio</a>
+              </li>
+              <li class="nav-menu-items">
+                <a href="#" class="nav-link">About </a>
+              </li>
+              <li class="nav-menu-items">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
 
+            <div class="menu-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div> 
+          </nav>
+        </header>
+        
         <section class="hero">
           <div class="hero-main-div">
             <h2 class="name">
@@ -394,5 +404,6 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script src="script.js"> </script>
   </body>
 </html>
