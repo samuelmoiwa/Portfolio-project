@@ -13,6 +13,10 @@
   --btn-bg-color: #ebebff;
 }
 
+html {  
+  scroll-behavior: smooth;  
+}
+
 body {
   display: flex;
   flex-direction: row;
@@ -1135,7 +1139,7 @@ h2 {
     flex-direction: column;
     background-color: rgba(18, 40, 243, 0.84);
     width: 100%;
-    height: 812px;
+    height: 100%;
     text-align: start;
     transition: 0.3s;
   }
