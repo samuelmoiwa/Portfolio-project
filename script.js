@@ -164,6 +164,19 @@ openModal.forEach((element) => {
     `;
 
     document.body.appendChild(modalWindow);
-    window.addEventListener('click', (e) => (e.target === modalWindow ? (modalWindow.classList.add('hidden'), body.classList.toggle('overflow')) : false)); const closeModal = document.querySelectorAll('.close'); closeModal.forEach((el) => { el.addEventListener('click', () => { body.classList.toggle('overflow'); modalWindow.classList.add('hidden'); }); });
+    window.addEventListener('click', (e) => (e.target === modalWindow ? (modalWindow.classList
+      .add('hidden'), body.classList.toggle('overflow')) : false)); const closeModal = document
+      .querySelectorAll('.close'); closeModal.forEach((el) => { el.addEventListener('click', () => { body.classList.toggle('overflow'); modalWindow.classList.add('hidden'); }); });
   });
 });
+
+const email = document.getElementById('contact-email');
+const error = document.getElementById('error-message');
+const form = document.getElementById('form');
+error.style.visibility = 'hidden';
+function formValidate(event) {
+  if (email.value !== email.value.toLowerCase()) { error.style.visibility = 'visible'; error.innerHTML = 'Please enter your email address in lowercase.'; event.preventDefault(); } else {
+    error.style.visibility = 'hidden';
+  }
+}
+form.addEventListener('submit', formValidate);
