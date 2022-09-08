@@ -645,6 +645,17 @@ textarea {
   color: #b3bac5;
 }
 
+#error-message {
+  padding: 2px;
+  margin-bottom: 5px;
+  color: #f00;
+  font-size: 15px;
+  float: left;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+}
+
 .contact-btn {
   float: left;
   font-family: 'Poppins', sans-serif;
@@ -907,6 +918,17 @@ textarea {
 
   .contact-text {
     width: 569px;
+  }
+
+  #error-message {
+    padding: 2px;
+    margin-bottom: 5px;
+    color: #f00;
+    font-size: 18px;
+    float: left;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #cfd8dc;
   }
 
   .contact-element,
