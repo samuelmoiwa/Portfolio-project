@@ -53,6 +53,7 @@ const portfolio = [
     modalSeeButtonText: 'See Live',
     modalSourceButtonText: 'See Source',
   },
+  
   {
     cardClass: 'works-card card3',
     cardTitle: 'Tonic',
