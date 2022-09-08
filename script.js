@@ -175,10 +175,11 @@ const error = document.getElementById('error-message');
 const form = document.getElementById('form');
 error.style.visibility = 'hidden';
 function formValidate(event) {
-  if (email.value !== email.value.toLowerCase()) { 
-    error.style.visibility = 'visible'; 
-    error.innerHTML = 'Please enter your email address in lowercase.'; 
-    event.preventDefault(); } else {
+  if (email.value !== email.value.toLowerCase()) {
+    error.style.visibility = 'visible';
+    error.innerHTML = 'Please enter your email address in lowercase.';
+    event.preventDefault();
+  } else {
     error.style.visibility = 'hidden';
   }
 }
