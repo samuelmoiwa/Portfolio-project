@@ -175,8 +175,28 @@ const error = document.getElementById('error-message');
 const form = document.getElementById('form');
 error.style.visibility = 'hidden';
 function formValidate(event) {
-  if (email.value !== email.value.toLowerCase()) { error.style.visibility = 'visible'; error.innerHTML = 'Please enter your email address in lowercase.'; event.preventDefault(); } else {
+  if (email.value !== email.value.toLowerCase()) { 
+    error.style.visibility = 'visible'; 
+    error.innerHTML = 'Please enter your email address in lowercase.'; 
+    event.preventDefault(); } else {
     error.style.visibility = 'hidden';
   }
 }
+
 form.addEventListener('submit', formValidate);
+
+const userName = document.getElementById('contact-name');
+const message = document.getElementById('contact-message');
+
+function storeData() {
+  const user = {
+    UserName: userName.value,
+    UserEmail: email.value,
+    UserText: message.value,
+  };
+  localStorage.setItem('user', JSON.stringify(user));
+}
+
+userName.addEventListener('focusout', storeData);
+email.addEventListener('focusout', storeData);
+message.addEventListener('focusout', storeData);
