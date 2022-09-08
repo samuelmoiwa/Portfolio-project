@@ -164,6 +164,8 @@ openModal.forEach((element) => {
     `;
 
     document.body.appendChild(modalWindow);
-    window.addEventListener('click', (e) => (e.target === modalWindow ? (modalWindow.classList.add('hidden'), body.classList.toggle('overflow')) : false)); const closeModal = document.querySelectorAll('.close'); closeModal.forEach((el) => { el.addEventListener('click', () => { body.classList.toggle('overflow'); modalWindow.classList.add('hidden'); }); });
+    window.addEventListener('click', (e) => (e.target === modalWindow ? (modalWindow.classList
+      .add('hidden'), body.classList.toggle('overflow')) : false)); const closeModal = document
+      .querySelectorAll('.close'); closeModal.forEach((el) => { el.addEventListener('click', () => { body.classList.toggle('overflow'); modalWindow.classList.add('hidden'); }); });
   });
 });
