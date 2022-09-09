@@ -7,7 +7,7 @@ const nav3 = document.getElementById('nav-3');
 const navItems = [nav1, nav2, nav3];
 
 function toggleNav() {
-  menuBars.classList.toggle('change');
+  // menuBars.classList.toggle('change');
   overlay.classList.toggle('overlay-active');
   if (overlay.classList.contains('overlay-active')) {
     overlay.classList.replace('overlay-slide-left', 'overlay-slide-right');
