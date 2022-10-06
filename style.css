@@ -214,6 +214,7 @@ nav {
   margin-top: 16px;
   margin-left: 16px;
   margin-right: 16px;
+  border-radius: 10px;
   width: calc(100% - 32px);
 }
 
@@ -343,7 +344,7 @@ nav {
 
 .card-button {
   margin-left: 16px;
-  margin-top: 24px;
+  margin-top: 15px;
   width: 124px;
 }
 
