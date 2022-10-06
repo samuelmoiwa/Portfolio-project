@@ -25,13 +25,13 @@ navItems.forEach((nav) => {
 const portfolio = [
   {
     cardClass: 'works-card card1',
-    cardTitle: 'Tonic',
+    cardTitle: 'To Do List',
     cardDesktopImage: 'images/card-images/Portfolio-desktop1.png',
     cardMobileImage: 'images/card-images/Portfolio-Mobile1.png',
-    company: 'CANOPY',
-    job: 'Back End Dev',
-    year: '2015',
-    cardInfo: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    company: 'Microverse',
+    job: 'Front-End',
+    year: '2022',
+    cardInfo: 'This web app is design to keep track of ur dali activities "To-do List", it helps organize your day. It creates a simple list of tasks that you have to complete with an option to edit, check and remove',
     technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
     buttonText: 'See More',
     modalInfo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
